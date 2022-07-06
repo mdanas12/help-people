@@ -14,6 +14,14 @@ body {
 
 .banner {
     width: 50%;
+    padding: 100PX;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.color-brand {
+    width: 50%;
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
@@ -40,8 +48,6 @@ body {
 
 
 
-
-.second-banner {}
 
 .header {
     font-size: 40px;
@@ -150,25 +156,47 @@ body {
 }
 
 .read-text {
-    background-color: rgb(252, 223, 169);
+    background-color: rgb(251, 235, 212);
     width: 50%;
     height: 100px;
     margin: 0 auto;
     padding-top: 70px;
+    padding-bottom: 60px;
     border-radius: 5px;
 }
 
 #email-button {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: rgb(202, 200, 198);
+    width: 340px;
+    height: 51px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 25px;
+    background-color: rgb(147, 147, 198);
+    color: rgb(246, 248, 250);
 }
 
-#button {
+#submit-button {
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+    width: 150px;
+    height: 51px;
+    border: none;
+    outline: none;
+    background-color: rgb(232, 79, 71);
+    color: white;
+    font-size: 25px;
+}
 
-    padding: 10px;
-    background-color: rgb(244, 162, 156);
-    border-radius: 5px;
+.form-button {
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    left: 75px;
+    padding-top: 25px;
+
 }
 
 #color-text {
@@ -186,4 +214,35 @@ footer {
     height: 160px;
     text-align: center;
     padding-top: 20px;
+}
+
+
+
+
+.wrapper {
+    width: 450px;
+    margin: 0 auto;
+
+}
+
+.wrapper .input data {
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.wrapper .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.wrapper .input-data label {
+    position: absolute;
+}
+
+#small-text {
+    text-align: center;
+    margin: 0 auto;
 }
